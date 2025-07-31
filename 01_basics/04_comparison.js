@@ -29,8 +29,18 @@
 // for >,<,>=,<= it converts the null to 0 
 // but for == it is always equal to undefined 
 
+/*
+console.log(null >= 0) 
+console.log(null <= 0)
+console.log(undefined >= 0)
+console.log(undefined <= 0)
+console.log(null == 0)
+console.log(undefined == 0)
+*/
+
+
 // Better to Use "===" as it also checks if same datatype and we had to avoid null
 
-console.log("2" === 2)
+//console.log("2" === 2)
 
 
